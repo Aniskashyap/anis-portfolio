@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anis Kashyap — Frontend Developer | Click Scale</title>
+  <meta name="description" content="Anis Kashyap — Frontend web developer and owner of Click Scale. We provide video editing, web development, and design services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Anis Kashyap — Frontend Developer | Click Scale" />
+  <meta property="og:description" content="Frontend developer building fast, responsive web experiences. Click Scale: video editing, web dev, design." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/" />
+  <meta property="og:image" content="assets/images/anis.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anis Kashyap — Frontend Developer | Click Scale" />
+  <meta name="twitter:description" content="Frontend developer building fast, responsive web experiences. Click Scale: video editing, web dev, design." />
+  <meta name="twitter:image" content="assets/images/og-image.jpg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="brand">Click Scale</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+        <a href="https://wa.me/919117815453" class="btn" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Anis Kashyap</span></h1>
+          <p class="subtitle">Frontend Developer • Founder at Click Scale</p>
+          <p>I build fast, responsive, and SEO-friendly websites with clean code and modern stacks.</p>
+          <div class="cta">
+            <a href="#work" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img class="hero-photo" src="assets/images/anis.jpg" alt="Portrait of Anis Kashyap" loading="eager" onerror="this.style.display='none';document.querySelector('.avatar').style.display='grid';" />
+          <div class="avatar" style="display:none">AK</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid services-grid">
+          <article class="card">
+            <h3>Web Development</h3>
+            <p>Modern websites using React/Next.js with performance, accessibility, and conversion in mind.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section alt">
+      <div class="container">
+        <h2>Featured Work</h2>
+        <div class="grid work-grid">
+          <article class="card work-item">
+            <div class="work-thumb placeholder" aria-hidden="true"></div>
+            <div class="work-content">
+              <h3>Giftz Unique</h3>
+              <p>E‑commerce storefront for personalized gifts with wishlist, cart, and COD checkout.</p>
+              <div class="work-links">
+                <a href="https://giftzunique.com/" class="link" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+          <article class="card work-item">
+            <div class="work-thumb placeholder" aria-hidden="true"></div>
+            <div class="work-content">
+              <h3>Kelly Construction</h3>
+              <p>Marketing site with plans gallery, lead capture forms, and regional landing pages.</p>
+              <div class="work-links">
+                <a href="https://www.kellyconstruction.com/" class="link" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+          <article class="card work-item">
+            <div class="work-thumb placeholder" aria-hidden="true"></div>
+            <div class="work-content">
+              <h3>Ghaadi Online</h3>
+              <p>Automotive platform experience focused on quick browse and mobile-first UX.</p>
+              <div class="work-links">
+                <a href="https://ghaadi.online/" class="link" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p>Ready to collaborate? Get in touch:</p>
+        <ul class="contact-list">
+          <li><a href="tel:+919117815453">Call: +91 91178 15453</a></li>
+          <li><a href="mailto:anissingh885@gmail.com?subject=Project%20Inquiry%20—%20Click%20Scale">Email: anissingh885@gmail.com</a></li>
+          <li><a href="https://wa.me/919117815453" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Click Scale · Built by Anis Kashyap</p>
+      <div class="socials">
+        <a href="#" aria-label="GitHub" class="link">GitHub</a>
+        <a href="#" aria-label="LinkedIn" class="link">LinkedIn</a>
+        <a href="#" aria-label="Instagram" class="link">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
